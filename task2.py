@@ -10,9 +10,11 @@ print(f" The first three question\n{username}   {length}" )
 
 print(length >= 8)                 # print(username == "admin") 
 usercheck = username == "admin" 
+print(usercheck)                   
 
-print(usercheck)                   # print(password == "1234") 
+# print(password == "1234") 
 passcheck = password == "1234"
+print(passcheck)
 
 print(usercheck and passcheck)                                    # print(username == "admin" and password == "1234")
 
